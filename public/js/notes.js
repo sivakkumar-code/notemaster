@@ -515,20 +515,6 @@ export function searchNotes(query) {
 
 // Helpers
 
-// function createElement(tagName, attributes) {
-//   const element = document.createElement(tagName)
-//   for (const key in attributes) {
-//     if (attributes.hasOwnProperty(key)) {
-//       if (key === "innerHTML") {
-//         element.innerHTML = attributes[key]
-//       } else {
-//         element.setAttribute(key, attributes[key])
-//       }
-//     }
-//   }
-//   return element
-// }
-
 function showError(message) {
   // alert(message);
 }
